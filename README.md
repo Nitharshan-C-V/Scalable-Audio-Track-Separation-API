@@ -1,4 +1,4 @@
-# lab7-music-separation-kubernetes
+# Scalable-Audio-Track-Seperation-API
 ![separation](images/music_separation.png)
 Music-Separation-as-a-service (MSaaS)
 ## Overview
@@ -32,6 +32,7 @@ One benefit of an object store is that you can control access to those objects &
 For organization, the object store is structured into two main buckets:
 
 •	Queue Bucket: Holds MP3 files that are queued for processing.
+
 •	Output Bucket: Stores separated tracks named in the format <songhash>-<track>.mp3
 
 
